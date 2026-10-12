@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81338B8A306032D500612776 /* SupportedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81338B89306032D500612776 /* SupportedGame.swift */; };
+		81338B8D3060375700612776 /* EmeraldQoLPatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81338B8C3060375700612776 /* EmeraldQoLPatches.swift */; };
+		8140EC7E305C3ABD00A368CC /* PokemonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140EC7D305C3ABD00A368CC /* PokemonModels.swift */; };
+		8140EC80305C3AE900A368CC /* EmeraldROM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140EC7F305C3AE900A368CC /* EmeraldROM.swift */; };
+		8140EC82305C3B1300A368CC /* PokemonEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140EC81305C3B1300A368CC /* PokemonEditorView.swift */; };
+		8140EC85305C8E2200A368CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140EC84305C8E2200A368CC /* Assets.xcassets */; };
+		8145E01E305FC288004C884E /* TeamCoachModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145E01D305FC288004C884E /* TeamCoachModels.swift */; };
+		8145E020305FC28E004C884E /* TeamCoachAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145E01F305FC28E004C884E /* TeamCoachAnalysis.swift */; };
+		8145E022305FC2E3004C884E /* TeamCoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145E021305FC2E3004C884E /* TeamCoachView.swift */; };
+		8145E024305FC92B004C884E /* TeamCoachDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145E023305FC92B004C884E /* TeamCoachDataSource.swift */; };
+		8145E026305FD381004C884E /* TrainerLocationResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145E025305FD381004C884E /* TrainerLocationResolver.swift */; };
+		8145E028305FD64B004C884E /* WildEncounterClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145E027305FD64B004C884E /* WildEncounterClipboard.swift */; };
+		8192F6253079015000D2FF46 /* WildEncounterSpeciesSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192F6243079015000D2FF46 /* WildEncounterSpeciesSummary.swift */; };
+		8192F6273079016400D2FF46 /* EmeraldStoryProgression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192F6263079016400D2FF46 /* EmeraldStoryProgression.swift */; };
+		81CA3508305DE85400297D4C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA3507305DE85400297D4C /* Localization.swift */; };
+		81CFA41E3060467A0047BED5 /* SwordShieldGameLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CFA41D3060467A0047BED5 /* SwordShieldGameLoader.swift */; };
+		81D90F47307C0EBB00DD2207 /* VanillaComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D90F46307C0EBB00DD2207 /* VanillaComparison.swift */; };
+		81D90F49307C0F1900DD2207 /* VanillaComparisonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D90F48307C0F1900DD2207 /* VanillaComparisonViews.swift */; };
+		A10000000000000000000001 /* HexManiaMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* HexManiaMacApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* ROMDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* ROMDocument.swift */; };
+		A10000000000000000000004 /* HexWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* HexWorkspaceView.swift */; };
+		A10000000000000000000005 /* MapNameResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* MapNameResolver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81338B89306032D500612776 /* SupportedGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedGame.swift; sourceTree = "<group>"; };
+		81338B8C3060375700612776 /* EmeraldQoLPatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldQoLPatches.swift; sourceTree = "<group>"; };
+		8140EC7D305C3ABD00A368CC /* PokemonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModels.swift; sourceTree = "<group>"; };
+		8140EC7F305C3AE900A368CC /* EmeraldROM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldROM.swift; sourceTree = "<group>"; };
+		8140EC81305C3B1300A368CC /* PokemonEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonEditorView.swift; sourceTree = "<group>"; };
+		8140EC84305C8E2200A368CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8145E01D305FC288004C884E /* TeamCoachModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCoachModels.swift; sourceTree = "<group>"; };
+		8145E01F305FC28E004C884E /* TeamCoachAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCoachAnalysis.swift; sourceTree = "<group>"; };
+		8145E021305FC2E3004C884E /* TeamCoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCoachView.swift; sourceTree = "<group>"; };
+		8145E023305FC92B004C884E /* TeamCoachDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCoachDataSource.swift; sourceTree = "<group>"; };
+		8145E025305FD381004C884E /* TrainerLocationResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerLocationResolver.swift; sourceTree = "<group>"; };
+		8145E027305FD64B004C884E /* WildEncounterClipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildEncounterClipboard.swift; sourceTree = "<group>"; };
+		8192F6243079015000D2FF46 /* WildEncounterSpeciesSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildEncounterSpeciesSummary.swift; sourceTree = "<group>"; };
+		8192F6263079016400D2FF46 /* EmeraldStoryProgression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldStoryProgression.swift; sourceTree = "<group>"; };
+		81CA3507305DE85400297D4C /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		81CFA41D3060467A0047BED5 /* SwordShieldGameLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwordShieldGameLoader.swift; sourceTree = "<group>"; };
+		81D90F46307C0EBB00DD2207 /* VanillaComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanillaComparison.swift; sourceTree = "<group>"; };
+		81D90F48307C0F1900DD2207 /* VanillaComparisonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanillaComparisonViews.swift; sourceTree = "<group>"; };
+		B10000000000000000000001 /* HexManiaMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexManiaMacApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* ROMDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROMDocument.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* HexWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexWorkspaceView.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000006 /* HexManiaMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HexManiaMac.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000007 /* Hex Mania Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hex Mania Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000008 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B10000000000000000000009 /* THIRD_PARTY_NOTICES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = THIRD_PARTY_NOTICES.md; sourceTree = "<group>"; };
+		B1000000000000000000000A /* MapNameResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNameResolver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81338B88306032D000612776 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				81338B89306032D500612776 /* SupportedGame.swift */,
+				81338B8B3060373B00612776 /* Emerald */,
+				81CFA41C306046430047BED5 /* SwordShield */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		81338B8B3060373B00612776 /* Emerald */ = {
+			isa = PBXGroup;
+			children = (
+				81338B8C3060375700612776 /* EmeraldQoLPatches.swift */,
+			);
+			path = Emerald;
+			sourceTree = "<group>";
+		};
+		81CFA41C306046430047BED5 /* SwordShield */ = {
+			isa = PBXGroup;
+			children = (
+				81CFA41D3060467A0047BED5 /* SwordShieldGameLoader.swift */,
+			);
+			path = SwordShield;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				8140EC84305C8E2200A368CC /* Assets.xcassets */,
+				D10000000000000000000002 /* HexManiaMac */,
+				B10000000000000000000008 /* README.md */,
+				B10000000000000000000009 /* THIRD_PARTY_NOTICES.md */,
+				D10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* HexManiaMac */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* HexManiaMacApp.swift */,
+				B10000000000000000000002 /* ContentView.swift */,
+				B10000000000000000000003 /* ROMDocument.swift */,
+				B10000000000000000000004 /* HexWorkspaceView.swift */,
+				B10000000000000000000005 /* Info.plist */,
+				B10000000000000000000006 /* HexManiaMac.entitlements */,
+				8140EC7D305C3ABD00A368CC /* PokemonModels.swift */,
+				8140EC7F305C3AE900A368CC /* EmeraldROM.swift */,
+				8140EC81305C3B1300A368CC /* PokemonEditorView.swift */,
+				81CA3507305DE85400297D4C /* Localization.swift */,
+				B1000000000000000000000A /* MapNameResolver.swift */,
+				8145E01D305FC288004C884E /* TeamCoachModels.swift */,
+				8145E01F305FC28E004C884E /* TeamCoachAnalysis.swift */,
+				8145E021305FC2E3004C884E /* TeamCoachView.swift */,
+				8145E023305FC92B004C884E /* TeamCoachDataSource.swift */,
+				8145E025305FD381004C884E /* TrainerLocationResolver.swift */,
+				8145E027305FD64B004C884E /* WildEncounterClipboard.swift */,
+				81338B88306032D000612776 /* Games */,
+				8192F6243079015000D2FF46 /* WildEncounterSpeciesSummary.swift */,
+				8192F6263079016400D2FF46 /* EmeraldStoryProgression.swift */,
+				81D90F46307C0EBB00DD2207 /* VanillaComparison.swift */,
+				81D90F48307C0F1900DD2207 /* VanillaComparisonViews.swift */,
+			);
+			path = HexManiaMac;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000007 /* Hex Mania Dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* HexManiaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXNativeTarget "HexManiaMac" */;
+			buildPhases = (
+				C10000000000000000000002 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				C10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexManiaMac;
+			productName = HexManiaMac;
+			productReference = B10000000000000000000007 /* Hex Mania Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXProject "HexManiaMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* HexManiaMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8140EC85305C8E2200A368CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8140EC7E305C3ABD00A368CC /* PokemonModels.swift in Sources */,
+				81D90F47307C0EBB00DD2207 /* VanillaComparison.swift in Sources */,
+				A10000000000000000000001 /* HexManiaMacApp.swift in Sources */,
+				8145E028305FD64B004C884E /* WildEncounterClipboard.swift in Sources */,
+				8140EC82305C3B1300A368CC /* PokemonEditorView.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				81CFA41E3060467A0047BED5 /* SwordShieldGameLoader.swift in Sources */,
+				8192F6273079016400D2FF46 /* EmeraldStoryProgression.swift in Sources */,
+				8145E026305FD381004C884E /* TrainerLocationResolver.swift in Sources */,
+				8192F6253079015000D2FF46 /* WildEncounterSpeciesSummary.swift in Sources */,
+				A10000000000000000000003 /* ROMDocument.swift in Sources */,
+				8145E024305FC92B004C884E /* TeamCoachDataSource.swift in Sources */,
+				A10000000000000000000004 /* HexWorkspaceView.swift in Sources */,
+				81D90F49307C0F1900DD2207 /* VanillaComparisonViews.swift in Sources */,
+				81CA3508305DE85400297D4C /* Localization.swift in Sources */,
+				8145E020305FC28E004C884E /* TeamCoachAnalysis.swift in Sources */,
+				81338B8D3060375700612776 /* EmeraldQoLPatches.swift in Sources */,
+				8140EC80305C3AE900A368CC /* EmeraldROM.swift in Sources */,
+				A10000000000000000000005 /* MapNameResolver.swift in Sources */,
+				8145E022305FC2E3004C884E /* TeamCoachView.swift in Sources */,
+				81338B8A306032D500612776 /* SupportedGame.swift in Sources */,
+				8145E01E305FC288004C884E /* TeamCoachModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F20000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F20000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F20000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = HexManiaMac/HexManiaMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HexManiaMac/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.hexmaniamac;
+				PRODUCT_NAME = "Hex Mania Dev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F20000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = HexManiaMac/HexManiaMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HexManiaMac/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.hexmaniamac;
+				PRODUCT_NAME = "Hex Mania";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXProject "HexManiaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20000000000000000000001 /* Debug */,
+				F20000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000002 /* Build configuration list for PBXNativeTarget "HexManiaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20000000000000000000003 /* Debug */,
+				F20000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}

@@ -1,0 +1,61 @@
+# Local test data and copyrighted game dumps
+LocalTestROMs/
+*.gba
+*.gb
+*.gbc
+*.nds
+*.3ds
+*.cia
+*.rom
+*.bin
+*.bios
+*.sav
+*.srm
+*.state
+*.dump
+
+# Finder and macOS metadata
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Personal Xcode state
+xcuserdata/
+**/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode and Swift build output
+DerivedData/
+build/
+Build/
+.build/
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+*.ipa
+
+# Temporary files, caches, and logs
+*.tmp
+*.temp
+*.log
+*.swp
+*.orig
+*~
+.cache/
+Logs/
+
+# Internal project documents
+PORTING_PLAN.md
+
+# Local credentials and signing material
+.env
+.env.*
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.pfx
+*.pem
+*.key
